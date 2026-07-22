@@ -132,6 +132,12 @@ left:0;
 right:0;
 bottom:130px;
 
+
+ /* left: 50%; */
+    top: 47%;              /* Increase this value to move lower */
+  
+
+    
 padding:25px;
 
 text-align:center;
@@ -143,7 +149,7 @@ z-index:5;
 
 opacity:0;
 
-transform:translateY(40px);
+transform:translateY(40px); 
 
 transition:3s;
 }
