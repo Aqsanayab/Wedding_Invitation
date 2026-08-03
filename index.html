@@ -8,125 +8,58 @@
 
 <title>The Wedding Of Aneesa & Gulshair</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Marcellus&display=swap" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
+<body class="lock-scroll">
 
 <div class="frame">
 
 <!-- ================= HERO ================= -->
 
-<!-- <section class="hero">
+<div class="hero" id="hero">
 
- 
+    <div class="envelope-wrapper">
+<!-- <div class="shine-light"></div> -->
 
-    <video
-     <video
-    id="video1"
-    class="hero-video"
-    muted
-    playsinline>
+        <!-- Invitation -->
 
-        <source src="assets/start 2.mp4" type="video/mp4">
+        
 
-    </video>
+        <!-- Back -->
 
-   
+        <img
+        src="assets/bottom.png"
+        class="bottom-envelope">
 
-    <video
-      <video
-    id="video1"
-    class="hero-video"
-    muted
-    playsinline>
+        <!-- Top Flap -->
 
-        <source src="assets/opening.mp4" type="video/mp4">
-
-    </video>
-
-    <div class="hero-overlay"></div>
-
-    <div id="heroText" class="hero-text">
-
-        <div class="hero-subtitle">
-
-            The Wedding Of
-
-        </div>
-
-       
-
-        <h4>
-
-            Daughter of Kamran Saleem            
-             <h4>&</h4> 
-          <h4> Son of  Usman Saleem</h4>
-
-        </h4>
-
-       
-        <div class="scroll-down">
-
-            Scroll Down
-
-            <br>
-
-            ↓
-
-        </div>
+        <img
+        src="assets/top.png"
+        class="top-envelope"
+        id="topFlap">
 
     </div>
 
-</section> -->
-<section class="hero">
+</div>
 
-<video
-    id="Startandopen"
-    class="hero-video"
-    autoplay
-    muted
-    playsinline>
-
-    <source src="assets/Startandopen.mp4" type="video/mp4">
-
-</video>
-
-    <div class="hero-overlay"></div>
-
-    <div id="heroText" class="hero-text">
-
-        <div class="hero-subtitle">
-            The Wedding Of
-        </div>
-
-        <h4>
-            Daughter of Kamran Saleem
-            <br>
-            &
-            <br>
-            Son of Usman Saleem
-        </h4>
-
-        <div class="scroll-down">
-            Scroll Down
-            <br>
-            ↓
-        </div>
-
-    </div>
-
-</section>
 <!-- ================= MAIN CONTENT ================= -->
 
-<main>
+<main id="mainContent">
+
+    <section class="start-card-section">
+
+    <img src="assets/startcard.png" alt="Invitation">
+
+</section>
+      
 
 <section class="section intro">
 
@@ -148,25 +81,24 @@ Bismillahir Rahmanir Rahim
 
 </section>
 
-<section class="section">
+ <section class="section"> 
+    <!-- <section class="section couple-full"> -->
 
 <div class="eyebrow">
 
-Bride & Groom
+WEDDING CELEBRATION
 
 </div>
 
 <h2>
 
-Aneesa & Gulshair
+Barat Ceremony
 
 </h2>
 
 <div class="couple-card">
 
-<img src="assets/card.png" alt="Wedding Card">
-
-
+<img src="assets/aneesacard.png" alt="Wedding Card">
 
 </div>
 
@@ -235,63 +167,67 @@ Aneesa & Gulshair
 <section class="section">
 
     <div class="eyebrow">
-        Wedding Event
+        EVENT DETAILS
     </div>
 
     <h2>
-        Barat Ceremony
+      Barat Ceremony
+    </h2>
+<div class="event-card">
+    <img src="assets/5.png" alt="Event Image">
+</div>
+
+</section>
+
+<!-- ================= LOCATION ================= -->
+
+<section class="section location-section">
+
+    <div class="eyebrow">
+        LOCATION
+    </div>
+
+    <h2>
+        Find Us
     </h2>
 
-    <div class="event-card">
+    <div class="divider">
+        ✦
+    </div>
 
-        <div class="event-date">
-            Thursday
-            <br>
-            <strong>20 August 2026</strong>
-        </div>
+    <!-- Google Map -->
 
-        <div class="event-info">
+    <div class="map-card">
 
-            <div class="event-row">
-                <span>Guests Arrival</span>
-                <strong>6:00 PM</strong>
-            </div>
+        <iframe
+            src="https://www.google.com/maps?q=Avior+Marquee+Rawalpindi&output=embed"
+            loading="lazy"
+            allowfullscreen="">
+        </iframe>
 
-            <div class="event-row">
-                <span>Baraat Arrival</span>
-                <strong>7:00 PM</strong>
-            </div>
+    </div>
 
-            <div class="event-row">
-                <span>Nikah</span>
-                <strong>7:30 PM</strong>
-            </div>
+    <div class="location-info">
 
-            <div class="event-row">
-                <span>Dinner</span>
-                <strong>8:30 PM Onwards</strong>
-            </div>
+        <!-- <img src="assets/location-pin.png" class="location-icon"> -->
 
-        </div>
+        <h3>Avior Marquee</h3>
 
-        <div class="venue">
-            <h3>Venue</h3>
-            <p>
-                Royal Palace Marquee
-                <br>
-                Lahore, Pakistan
-            </p>
-        </div>
+        <p>
+            Service Road, Main Gulberg Expy,<br>
+            Koral Town, Islamabad,<br>
+            Near Imtiaz Mall
+        </p>
 
-        <a href="#" class="location-btn" style="color: #570f0f;" >
-            View Location
-        </a>
+    </div>
+
+    <div class="venue-image">
+
+        <img src="assets/location-pin.png" alt="Avior Marquee">
 
     </div>
 
 </section>
-
-
 
 <!-- ================= THANK YOU ================= -->
 
@@ -309,7 +245,7 @@ Aneesa & Gulshair
 
     </h2>
 
-    <p class="quote">
+    <!-- <p class="quote">
 
         Your presence will make our celebration even more memorable.
 
@@ -326,33 +262,56 @@ Aneesa & Gulshair
 
         Gulshair
 
-    </div>
+    </div> -->
 
 </section>
 
 </main>
 
-<audio id="bgMusic" autoplay loop>
+<!-- <audio id="bgMusic" autoplay loop>
+    <source src="assets/sound.mp3" type="audio/mpeg">
+</audio> -->
+
+<audio id="bgMusic" loop preload="auto">
     <source src="assets/sound.mp3" type="audio/mpeg">
 </audio>
 
 <script>
+const hero = document.getElementById("hero");
+const flap = document.getElementById("topFlap");
+const main = document.getElementById("mainContent");
 const bgMusic = document.getElementById("bgMusic");
-const Startandopen = document.getElementById("Startandopen");
-const heroText = document.getElementById("heroText");
 
-Startandopen.play().catch(() => {});
+flap.addEventListener("click", () => {
 
-bgMusic.play().catch(() => {});
+    bgMusic.play();
 
-Startandopen.addEventListener("ended", () => {
-    heroText.style.opacity = "1";
-});
+    hero.classList.add("open");
 
-// Show text after video ends
-Startandopen.addEventListener("ended", () => {
+    setTimeout(() => {
 
-    heroText.style.opacity = "1";
+        main.style.display = "block";
+
+        requestAnimationFrame(() => {
+
+            main.classList.add("show");
+
+        });
+
+    },900);
+
+    setTimeout(() => {
+
+        hero.classList.add("hide");
+
+        document.body.classList.remove("lock-scroll");
+
+        window.scrollTo({
+            top:0,
+            behavior:"instant"
+        });
+
+    },2500);
 
 });
 
