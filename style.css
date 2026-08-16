@@ -57,7 +57,7 @@ body.lock-scroll{
     height:100vh;
 }
 
-.start-card-section{
+/* .start-card-section{
     position:relative;
     width:100%;
     height:100vh;
@@ -70,6 +70,166 @@ body.lock-scroll{
     height:100%;
 
     object-fit:cover;
+
+} */
+/* .start-card-section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#faf7f2;
+}
+
+.start-card-section img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+} */
+/* 
+.start-card-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.start-card-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+} */
+
+
+/* .start-card-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.start-card-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #ffffff;
+    text-shadow: 0 2px 6px rgba(0,0,0,.7);
+
+    pointer-events: none;
+}
+
+.scroll-indicator span {
+    font-family: 'Marcellus', serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.scroll-arrow {
+    font-size: 28px;
+    line-height: 1;
+    margin-top: 4px;
+
+    animation: scrollBounce 1.6s infinite;
+}
+
+@keyframes scrollBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(9px);
+    }
+} */
+
+
+.start-card-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.start-card-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Elegant Scroll Arrow */
+.scroll-arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 2.5%;
+
+    transform: translateX(-50%);
+
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+
+    color: #c49a45;
+
+    text-shadow:
+        0 0 4px rgba(196, 154, 69, 0.7),
+        0 0 10px rgba(196, 154, 69, 0.35);
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    animation: elegantScrollArrow 2.8s ease-in-out infinite;
+}
+
+@keyframes elegantScrollArrow {
+
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -4px);
+    }
+
+    25% {
+        opacity: 0.85;
+        transform: translate(-50%, 0);
+    }
+
+    50% {
+        opacity: 0.95;
+        transform: translate(-50%, 6px);
+    }
+
+    75% {
+        opacity: 0.35;
+        transform: translate(-50%, 10px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, 15px);
+    }
 
 }
 
